@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000;
+}
+
+h2 {
+    background-color: #d0e4f7;
+    color: rgb(52, 77, 174);
+    font-size: 22px;
+    padding: 5px;
+}   
+.profile-pic img {
+    float: right;
+    margin-left: 20px;
+    width: 250px;
+    height: 300px;
+    margin-top: -163px;
+    
+}
+.about,
+.courses,
+.interests,
+.submit {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.courses table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.courses table th,
+.courses table td {
+    border: 2px solid #000;
+    padding:  8px;
+    text-align: center;
+}
+
+.courses table tr:nth-child(3),
+.courses table tr:nth-child(5),
+.courses table tr:nth-child(7) {
+    background-color: #c9c6c6;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form input [type = "text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+form input [type = "submit"]{
+    background-color: #c9c6c6;
+    color: #000;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form input [type = "submit"]:hover {
+    background-color: #003d7a;
+}
+
+
